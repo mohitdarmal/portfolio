@@ -1,0 +1,80 @@
+/* Header Desktop Css */
+.header-sec {
+    background: #fff;
+    padding: 20px 0;
+}
+
+.header-menu a {
+    color: #222;
+    padding: 0px 15px;
+}
+
+.header-menu a.active {
+    font-weight: 600;
+}
+
+/* Header Desktop Css */
+
+
+
+
+/* Mobile Header Css */
+.mobile-menu-sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    text-align: center;
+    position: fixed;
+    bottom: -144px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 6px 21px #0000000d;
+    padding: 20px;
+    transition: 0.5s;
+}
+.mobile-menu-sec.menuSlideUp{bottom: 50px; z-index: 9;}
+
+.mobile-menu-sec a {
+    color: #222;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.mobile-menu-sec i {
+    font-size: 20px;
+}
+
+.mobile-menu-sec a.active {
+    font-weight: bold;
+}
+
+.mobile-menu-hemburger {
+    position: fixed;
+    bottom: 0;
+    padding: 13px 35px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #e2e2e2;
+}
+
+.mobile-menu-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-menu-inner i {
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.mobile-logo {
+    color: #000;
+    font-weight: 500;
+}
+
+.menu-height {
+    height: 0;
+    transition: 0.5s;
+}
+
+/* Mobile Header Css */

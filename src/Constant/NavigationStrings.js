@@ -1,7 +1,7 @@
 const NavigationStrings =   {
-    ABOUT_ME: 'About-me',
-    PORTFOLIO: 'Portfolio',
-    CONTACT: 'Contact'
+    ABOUT_ME: 'about-me',
+    PORTFOLIO: 'portfolio',
+    CONTACT: 'contact'
 } 
 
 export default NavigationStrings;

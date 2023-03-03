@@ -1,4 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body{font-family: 'Poppins', sans-serif;}
-a{text-decoration: none;}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    background: #fbfafb;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    color: #000;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #313131;
+}
+
+
+.section_padding_top {
+    padding-top: 200px;
+}
+
+.section_padding_bottom {
+    padding-bottom: 200px;
+}
+
+/* Media query start */
+@media screen and (max-width:767px) {
+    .section_padding_top {
+        padding-top: 80px;
+    }
+
+    .section_padding_bottom {
+        padding-bottom: 80px;
+    }   
+}
+
+
+@media screen and (min-width:481px) and (max-width:767px) {
+    .about_exp_box {
+        display: flex;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+/* Media query end */
+
+
+
+
+
+
+
+/* Tic Toe  css*/
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table td {
+    border: 1px solid #000;
+    border-right: 1px solid #000;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+.table tr:last-child td {
+    border-bottom: 1px solid #000;
+}
