@@ -279,6 +279,9 @@ const Home = () => {
 
                     {/* Content */} 
 
+                      {/* Experience */}
+                      <Experience companyName="SiriusAI Pvt Ltd." designation="Front End Developer" year="2024-Current" />     
+
                         {/* Education */}  
                             <Education school="High School" board="CBSE" year="2011-2012" />                 
                         {/* Education */}  
